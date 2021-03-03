@@ -133,21 +133,29 @@ main p {
     line-height: 20px;
     padding-top: 10px;
 }
-/* .container.c-section .row .col{
+main .c-section .container .row .col-3{
     position: relative;
-} */
-.container.c-section .row .col img{
-    height: 200px;
-    width: 200px;
-    padding: 10px 10px;
-    /* position: absolute; */
-
+    height: 350px;
+} 
+main .c-section .container .row .col-3 img{
+    position: absolute;
+    width: 100%;
+    height:40%;
 }
-.container.c-section .row .col h3, .container.c-section .row .col p {
+main .c-section .container .row .c-text{
+    position:absolute;
+    top:40%;
     text-align: center;
-    /* position: absolute; */
-    
+    padding:10px 20px;
 }
+main .c-section .container .row .c-text hr{
+    width:20%;
+    border: 1px solid #A0A0A0;
+    display: inline-block;
+}
+
+
+
 
 main .final-section .container .row .col-2{
     height: 350px;
@@ -158,7 +166,6 @@ main .final-section .container .row .col-2 .final-section-text{
     top:20px;
     padding-left: 10%;
     padding-right: 25%;
-
 }
 .final-section-text p{
     color: #C9C9C9;
