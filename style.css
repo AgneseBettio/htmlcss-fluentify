@@ -6,6 +6,8 @@
 body >*{
     font-family: 'Roboto', sans-serif;
 }
+.section{
+}
 
 /* PER LAYOUT */
    
@@ -22,7 +24,7 @@ body >*{
 .container{
     width: 1024px;
     margin: auto; 
-    padding: 5px 50px;
+    padding: 25px 50px;
 }
 .container.blue{
     background-color: #0C325A;
@@ -95,19 +97,19 @@ nav .wrap-logo-img {
 }
 main article .container.blue{
     background-image: url(img/background-header.png);
-    height: 300px;
+    height: 350px;
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
 }
 main .hero-section .container .row .col-2{
     position: relative;
-    height: 300px;
+    height: 350px;
 } 
 main .hero-section .container .row .col-2 .hero-text{
     position: absolute;
     top: 50%;
-    transform: translateY(-60%);
+    transform: translateY(-75%);
 
 }
 main .hero-section .hero-row .col h1{
@@ -120,13 +122,16 @@ button.btn-hero{
     padding: 15px 20px;
 }
 main .banner-section .container h3{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 main .banner-section .container p{
-    text-align: center;
+    text-align: center;  
+}
+main p {
     color:#A0A0A0;
-
+    line-height: 20px;
+    padding-top: 10px;
 }
 /* .container.c-section .row .col{
     position: relative;
@@ -142,4 +147,29 @@ main .banner-section .container p{
     text-align: center;
     /* position: absolute; */
     
+}
+
+main .final-section .container .row .col-2{
+    height: 350px;
+    position:relative;
+} 
+main .final-section .container .row .col-2 .final-section-text{
+    position:absolute;
+    top:20px;
+    padding-left: 10%;
+    padding-right: 25%;
+
+}
+.final-section-text p{
+    color: #C9C9C9;
+}
+.final-section-text a {
+    color:#99B6D6;
+    padding-top:10px;
+    display: inline-block;
+}
+
+main .final-section .container .row .col-2 .final-section-img{
+    width: 100%;
+    height: 100%;
 }
