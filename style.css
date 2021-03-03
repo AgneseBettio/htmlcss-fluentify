@@ -11,18 +11,31 @@
 .hero-section{
     background-color: bisque;
 }
-
-
+.banner-section{
+    background-color: aqua;
+}
+.col:nth-of-type(odd){
+    background-color: rgb(224, 135, 135);
+}
+.c-section{
+    background-color: bisque;
+}
+.final-section{
+    background-color: aqua;
+}
+.footer-section{
+    background-color: bisque;
+}
 
 .container{
     border-left:1px solid black;
     border-right:1px solid black;
+    height: 100px;
 }
 
 .container{
     width: 1024px;
-    margin: auto;
-    height: 200px;
+    margin: auto; 
 }
 nav{
     /* background-color: #0C325A; */
@@ -33,8 +46,11 @@ nav{
     display: table;
 }
 .col{
-    float: left;
+    float:left;
 }
-.row .half-page{
+.row .col-2{
     width: 50%;
+}
+.row .col-3{
+    width: 33%;
 }
