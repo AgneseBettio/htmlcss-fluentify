@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* PER LAYOUT */
+.nav-section{
+    background-color: aqua;
+}
+.hero-section{
+    background-color: bisque;
+}
+
+
+
+.container{
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+    height: 200px;
+}
+nav{
+    /* background-color: #0C325A; */
+}
+.row::after {
+    content: "";
+    clear:both;
+    display: table;
+}
+.col{
+    float: left;
+}
+.row .half-page{
+    width: 50%;
+}
