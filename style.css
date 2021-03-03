@@ -5,40 +5,26 @@
 }
 
 /* PER LAYOUT */
-.nav-section{
-    background-color: aqua;
-}
-.hero-section{
-    background-color: bisque;
-}
-.banner-section{
-    background-color: aqua;
-}
-.col:nth-of-type(odd){
-    background-color: rgb(224, 135, 135);
-}
-.c-section{
-    background-color: bisque;
-}
-.final-section{
-    background-color: aqua;
-}
-.footer-section{
-    background-color: bisque;
-}
-
-.container{
-    border-left:1px solid black;
-    border-right:1px solid black;
-    height: 100px;
-}
+   
+      
+    .col:nth-of-type(odd){
+        background-color: rgb(224, 135, 135);
+    }
+        .container{
+        
+        border:1px solid black;
+        height: 100px;
+    }
 
 .container{
     width: 1024px;
     margin: auto; 
 }
-nav{
-    /* background-color: #0C325A; */
+.blue-container{
+    background-color: #0C325A;
+}
+.gray-container{
+    background-color: #D3D3D3;
 }
 .row::after {
     content: "";
