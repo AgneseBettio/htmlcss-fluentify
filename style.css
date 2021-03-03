@@ -19,6 +19,7 @@
 .container{
     width: 1024px;
     margin: auto; 
+    padding: 5px 40px;
 }
 .blue-container{
     background-color: #0C325A;
@@ -46,6 +47,7 @@ nav ul a {
     text-transform: uppercase;
     color: white;
     line-height: 60px;
+    font-size: smaller;
 }
 button{
     background-color: #7CBB02;
