@@ -47,13 +47,18 @@ nav ul a {
     text-transform: uppercase;
     color: white;
     line-height: 60px;
-    font-size: smaller;
+    font-size: 0.7em;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 button{
     background-color: #7CBB02;
     color:white;
     border: 1px solid white;
     border-radius: 5px;
+    text-transform: uppercase;
+    padding: 8px 4px;
+    font-size: 0.7em;
 }
 .btn-login{
     background-color: #0C325A;
@@ -61,11 +66,13 @@ button{
 nav .wrap-logo-img {
     height: 60px;
     width: 100px;
+    margin-right: 15px;
 }
 .logo-img{
     width: 100%;
     height: 100%;
     object-fit:contain;
+    padding-bottom: 10px;
 }
 
 
