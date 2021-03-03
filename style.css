@@ -9,18 +9,6 @@ body >*{
 .section{
 }
 
-/* PER LAYOUT */
-   
-      
-    /* .col:nth-of-type(odd){
-        background-color: rgb(224, 135, 135);
-    } */
-    .container{
-        
-        border:1px solid black;
-        /* height: 80px; */
-    }
-
 .container{
     width: 1024px;
     margin: auto; 
@@ -117,7 +105,7 @@ main .hero-section .hero-row .col h1{
     font-weight: bold;
     font-size: 32px;
 }
-button.btn-hero{
+button.btn-hero, button.btn-footer{
     margin-top: 15px;
     padding: 15px 20px;
 }
@@ -155,8 +143,6 @@ main .c-section .container .row .c-text hr{
 }
 
 
-
-
 main .final-section .container .row .col-2{
     height: 350px;
     position:relative;
@@ -179,4 +165,28 @@ main .final-section .container .row .col-2 .final-section-text{
 main .final-section .container .row .col-2 .final-section-img{
     width: 100%;
     height: 100%;
+}
+footer li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+footer .clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+footer ul {
+    float: right;
+}
+footer h3 {
+    line-height: 60px;
+}
+#btn-help{
+    bottom: 0;
+    right: 20%;
+    position:fixed;
+    z-index:1;
+
 }
