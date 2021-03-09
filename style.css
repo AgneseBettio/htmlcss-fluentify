@@ -6,15 +6,16 @@
 body >*{
     font-family: 'Roboto', sans-serif;
 }
+
 .container{
     width: 1024px;
     margin: auto; 
     padding: 25px 50px;
 }
-.container.blue{
+.blue{
     background-color: #0C325A;
 }
-.container.gray{
+.gray{
     background-color: #D3D3D3;
 }
 nav::after{
@@ -45,7 +46,7 @@ button{
     background-color: #7CBB02;
     color:white;
     font-size: 0.7em;
-    border: 1px solid white;
+    border: 1px solid #7CBB02;
     border-radius: 5px;
     text-transform: uppercase;
     padding: 8px 20px;
@@ -53,6 +54,7 @@ button{
 }
 .btn-login{
     background-color: #0C325A;
+    border:1px solid white;
 }
 nav .wrap-logo-img {
     height: 60px;
@@ -180,10 +182,22 @@ footer ul {
 footer h3 {
     line-height: 60px;
 }
+.select{
+    padding-right: 10px;
+    background-color: #D3D3D3;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.select, .select-label{
+    color:gray;
+}
 #btn-help{
     bottom: 0;
     right: 20%;
     position:fixed;
     z-index:1;
-
 }
